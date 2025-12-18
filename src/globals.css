@@ -122,10 +122,8 @@
     @apply bg-background text-foreground;
   }
 
-  /* Estilização do Webkit Scrollbar */
   ::-webkit-scrollbar {
     @apply w-2 h-2;
-    /* Largura da barra vertical e altura da horizontal */
   }
 
   ::-webkit-scrollbar-track {
@@ -140,7 +138,6 @@
     @apply bg-primary/40;
   }
 
-  /* Remove o "glow" azul de inputs no Safari/iOS se desejar */
   input {
     @apply focus:outline-none;
   }
